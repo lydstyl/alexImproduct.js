@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="apparel-catalog">
+  <product product-id="008884303989">
+    <short-description xml:lang="fr-FR">008884303989-fr</short-description>
+    <short-description xml:lang="en-EN">008884303989-en</short-description>
+    <short-description xml:lang="nl-NL">008884303989-nl</short-description>
+  </product>
+  <product product-id="008884303996">
+    <short-description xml:lang="fr-FR">008884303996-fr</short-description>
+    <short-description xml:lang="en-EN">008884303996-en</short-description>
+    <short-description xml:lang="nl-NL">008884303996-nl</short-description>
+  </product>
+  <product product-id="008884304009">
+    <short-description xml:lang="fr-FR">008884304009-fr</short-description>
+    <short-description xml:lang="en-EN">008884304009-en</short-description>
+    <short-description xml:lang="nl-NL">008884304009-nl</short-description>
+  </product>
+  <product product-id="008884304016">
+    <short-description xml:lang="fr-FR">008884304016-fr</short-description>
+    <short-description xml:lang="en-EN">008884304016-en</short-description>
+    <short-description xml:lang="nl-NL">008884304016-nl</short-description>
+  </product>
+</catalog>

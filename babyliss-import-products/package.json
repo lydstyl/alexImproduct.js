@@ -1,0 +1,17 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^4.0.7",
+    "csv-parse": "^2.0.0",
+    "decamelize": "^1.2.0",
+    "xmlbuilder": "^9.0.4"
+  }
+}
