@@ -1,2 +1,6 @@
 data
 babyliss-import-products/node_modules
+*.back
+*.old
+.vscode
+babyliss-import-products/examples

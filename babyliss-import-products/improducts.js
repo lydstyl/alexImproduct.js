@@ -9,6 +9,10 @@
     --> Alexandre : les variations attribute il faut le faire soit meme
 */
 
+///////////////
+const delimiter = ';';
+///////////////
+
 const commandLineArgs = require('command-line-args')
 
 const optionDefinitions = [
@@ -35,7 +39,7 @@ const SYSTEM_ATTRIBUTES = [
 const localePrefix = 'locale_';
 
 let locales;
-const csv = CSVParser({delimiter: ';', columns: function(header) {
+const csv = CSVParser({delimiter: delimiter, columns: function(header) {
   const mandatoryFields = ['product', 'attribute'];
 
   mandatoryFields.forEach(function(e) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="apparel-catalog">
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="master-fr">
   <product product-id="008884303989">
     <short-description xml:lang="fr-FR">008884303989-fr</short-description>
     <short-description xml:lang="en-EN">008884303989-en</short-description>
