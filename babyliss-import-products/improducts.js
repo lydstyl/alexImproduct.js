@@ -7,10 +7,16 @@
     Product: C3: Variation Attribute id 'diamètre' referenced in image group doesn't exist for product 'C3'.
     Product: ST39: Variation Attribute id 'color' referenced in image group doesn't exist for product 'ST39'.
     --> Alexandre : les variations attribute il faut le faire soit meme
+
+  A tester : voir si on peut importer du storefront en plus du master avec ce script ?
+  
+  Comment langer le scipt ? :
+    npm install 
+    node improducts --catalog master-fr --csv 180924-es.csv
 */
 
 ///////////////
-const delimiter = ';';
+const delimiter = ',';
 ///////////////
 
 const commandLineArgs = require('command-line-args')
@@ -34,7 +40,8 @@ const decamelize = require('decamelize');
 const SYSTEM_ATTRIBUTES = [
   'brand', 'longDescription', 'manufacturerName', 'name', 'pageDescription', 
   'pageKeywords', 'pageTitle', 'pageURL', 'shortDescription', 'storeReceiptName',
-  'short-description', 'long-description' // fix added 2018-01-03
+  'short-description', 'long-description', // fix added 2018-01-03
+  //'displayName', // fix added 2018-09-24 --> attention existe t'il des custom attribute displayName ,
 ];
 const localePrefix = 'locale_';
 
